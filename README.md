@@ -36,7 +36,11 @@ Partial dependencies is where we can really see the information that might help 
 
 First plot: number of trips in first 30 days. Sharply increases dependence up to around 10 rides, so focusing on getting people those first 10 rides in the first month by offering incentives.
 
-Third plot: percent of rides that are during surge pricing times. People are more likely to stay if they have a lower percent of surge prices. Cheaper prices, focusing on clients that use during off peak hou
+Third plot: percent of rides that are during surge pricing times. People are more likely to stay if they have a lower percent of surge prices. Cheaper prices, focusing on clients that use during off peak hours
+
+4th: Weekday percent. Steady increase as weekday use increases, so people who are using this as a way to get to daily routine type instances are more likely to stay.
+
+5th: Rating by driver. If the drivers liked them, they were more likely to stay, so positive interactions between drivers and
 
 ![alt text](./img/partial_dep.png)
 
