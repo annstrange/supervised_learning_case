@@ -40,7 +40,9 @@ Third plot: percent of rides that are during surge pricing times. People are mor
 
 4th: Weekday percent. Steady increase as weekday use increases, so people who are using this as a way to get to daily routine type instances are more likely to stay.
 
-5th: Rating by driver. If the drivers liked them, they were more likely to stay, so positive interactions between drivers and
+5th: Rating by driver. If the drivers liked them, they were more likely to stay, so positive interactions between drivers and passengers encouraged.
+
+6th: Average distance driven. Increased until about 5 miles then decreases, so focusing on the routes around 5 miles. 
 
 ![alt text](./img/partial_dep.png)
 
@@ -52,7 +54,7 @@ Third plot: percent of rides that are during surge pricing times. People are mor
 
 A Logistics Regression of most features showed an Accuracy on train data of 71% and on test data of 70%
 
-!([My image] (/img/LogRegModel.png)
+![Log Reg](/img/LogRegModel.png)
 
 The biggest coefficients were whether the subject lived in King's Landing or used an iphone.
 
