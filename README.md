@@ -9,6 +9,11 @@ ask you not to share the dataset. See more about the problem in
 
 # Random Forest Appraoch
 
+Random forest was used to build a model to determine if someone was still active within the last 30 days or not. The number of features used was limited to 10, and iterations to 40. 
+
+![alt text](./img/feature_imp.png)
+
+![alt text](./img/partial_dep.png)
 # XG Boost Gradient Boosting
 
 # Logisting Regression
