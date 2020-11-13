@@ -8,7 +8,9 @@ ask you not to share the dataset. See more about the problem in
 
 
 # Random Forest Appraoch
+![alt text](./img/feature_imp.png)
 
+![alt text](./img/partial_dep.png)
 # XG Boost Gradient Boosting
 
 # Logisting Regression
