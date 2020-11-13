@@ -18,9 +18,7 @@ We took a simple approach to our preprocessing and feature engineering steps.  W
 # Feature Engineering
 To take seasonlity and time of week or month into account we converted our `last_trip_date` into a multitude of date features, using the fastai library method `add_datepart`:  
 
-<p align="center">
-  <img align="center" src="/img/date_time_columns.png" height="250" width="1000">
-</p>
+[Time feature](./img/date_time_columns.png)
 
 # Random Forest Appraoch
 
@@ -54,6 +52,9 @@ Third plot: percent of rides that are during surge pricing times. People are mor
 Baseline model with almost zero feature engineering = 78.4%  
 Meaning, we are very hopeful that if we can get our data engineering straightened out, that we can break into the 80% range for churn prediction. 
 
+<p>
+  <img align="center" src="/img/luxury_car.png" width="600">
+</p>
 # Logisting Regression
 
 A Logistics Regression of most features showed an Accuracy on train data of 71% and on test data of 70%
