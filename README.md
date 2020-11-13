@@ -49,7 +49,7 @@ Third plot: percent of rides that are during surge pricing times. People are mor
 # XG Boost Gradient Boosting
 
 <p>
-  <img align="center" src="/img/date_time_columns.png" width="600">
+  <img align="center" src="/img/XGBoost.png" width="600">
 </p>
 
 # Logisting Regression
