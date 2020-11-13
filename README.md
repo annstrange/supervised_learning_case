@@ -16,15 +16,41 @@ We took a simple approach to our preprocessing and feature engineering steps.  W
 - Converted string variables into dummy variables for the `phone` and `city` columns
 
 # Feature Engineering
-To take seasonlity and time of week or month into account we converted our `last_trip_date` into a multitude of date features, using the fastai library method `add_datepart`.  
+To take seasonlity and time of week or month into account we converted our `last_trip_date` into a multitude of date features, using the fastai library method `add_datepart`:  
+
+<p align="center">
+  <img align="center" src="/img/date_time_columns.png" width="800">
+</p>
 
 # Random Forest Appraoch
 
+Random forest was used to build a model to determine if someone was still active within the last 30 days or not. The number of features used was limited to 10, and trees to 45. 
 
+![alt text](./img/trees.png)
+
+
+
+![alt text](./img/feature_imp.png)
+
+Partial dependencies is where we can really see the information that might help the client. 
+
+First plot: number of trips in first 30 days. Sharply increases dependence up to around 10 rides, so focusing on getting people those first 10 rides in the first month by offering incentives.
+
+Third plot: percent of rides that are during surge pricing times. People are more likely to stay if they have a lower percent of surge prices. Cheaper prices, focusing on clients that use during off peak hou
+
+![alt text](./img/partial_dep.png)
 
 # XG Boost Gradient Boosting
 
+![Model Results](img.png)
+
 # Logisting Regression
+
+A Logistics Regression of most features showed an Accuracy on train data of 71% and on test data of 70%
+
+!([My image] (/img/LogRegModel.png)
+
+The biggest coefficients were whether the subject lived in King's Landing or used an iphone.
 
 # Recommendations to the Client
 
