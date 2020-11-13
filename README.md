@@ -18,7 +18,7 @@ We took a simple approach to our preprocessing and feature engineering steps.  W
 # Feature Engineering
 To take seasonlity and time of week or month into account we converted our `last_trip_date` into a multitude of date features, using the fastai library method `add_datepart`:  
 
-[Time feature](./img/date_time_columns.png)
+![Time feature](./img/date_time_columns.png)
 
 # Random Forest Appraoch
 
@@ -54,7 +54,8 @@ Meaning, we are very hopeful that if we can get our data engineering straightene
 
 <p>
   <img align="center" src="/img/luxury_car.png" width="600">
-</p>
+</p>  
+
 # Logisting Regression
 
 A Logistics Regression of most features showed an Accuracy on train data of 71% and on test data of 70%
