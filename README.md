@@ -19,7 +19,7 @@ We took a simple approach to our preprocessing and feature engineering steps.  W
 To take seasonlity and time of week or month into account we converted our `last_trip_date` into a multitude of date features, using the fastai library method `add_datepart`:  
 
 <p align="center">
-  <img align="center" src="/img/date_time_columns.png" width="800">
+  <img align="center" src="/img/date_time_columns.png" height="250" width="800">
 </p>
 
 # Random Forest Appraoch
