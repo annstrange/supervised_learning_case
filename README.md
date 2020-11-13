@@ -51,6 +51,8 @@ Third plot: percent of rides that are during surge pricing times. People are mor
 <p>
   <img align="center" src="/img/XGBoost.png" width="1000">
 </p>
+Baseline model with almost zero feature engineering = 78.4%  
+Meaning, we are very hopeful that if we can get our data engineering straightened out, that we can break into the 80% range for churn prediction. 
 
 # Logisting Regression
 
